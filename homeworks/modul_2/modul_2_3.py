@@ -1,5 +1,7 @@
 i = 0
-my_list = [6,2,4,1,1,3,9,7,6,4,1,7,9,3,6,8,4,2,1,9]
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
 while i <len(my_list)-1 :
-    i = i + 1
+    if my_list[i] < 0 :
+        break
     print(my_list[i])
+    i = i + 1
